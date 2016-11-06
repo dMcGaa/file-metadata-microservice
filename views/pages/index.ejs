@@ -17,16 +17,20 @@
     <div class="jumbotron">
         <h1 style = "font-size 210%;">File Metadata Microservice</h1>
         <span>
-            <form method="post" name="filemetadata">
-               <input type="button" id="choose-file" value="Choose File"/>
-               <label>Custom file label:</label>
-               <input type="text" name="filelabel" size="12" maxlength="32" /><br />
-               <input type="submit" value="Upload" />
+            <form name="filemetadata">
+               <input type="file" id="file-input" />
+               <!--<input type="submit" value="Upload" />-->
+               <button id="change-content" type="button">Change Content</button>
             </form>
+            <button id="button-upload">Upload</button>
        </span>
        
         <p><a href="https://github.com/dMcGaa">GitHub</a></p>
        
+    </div>
+    <div id="demo">
+        <h1>The XMLHttpRequest Object</h1>
+        <button type="button" onclick="loadDoc()">Change Content</button>
     </div>
 </div>
     

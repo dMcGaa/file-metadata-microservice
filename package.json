@@ -8,19 +8,21 @@
     "start": "node index.js"
   },
   "dependencies": {
+    "body-parser": "^1.15.2",
+    "chai": "3.5.0",
+    "dotenv": "^1.x",
     "ejs": "^2.3.1",
     "express": "~4.9.x",
-    "request": "~2.67.x",
     "mocha": "3.1.2",
     "mocha-jsdom": "1.1.0",
-    "chai": "3.5.0",
-    "dotenv": "^1.x"
+    "multer": "^1.2.0",
+    "request": "~2.67.x"
   },
-    "repository": {
+  "repository": {
     "type": "git",
-    "url": "https://github.com/dMcGaa"
+    "url": "https://github.com/dMcGaa/file-metadata-microservice.git"
   },
   "author": "David McGaa",
   "license": "ISC",
-  "homepage": "https://github.com/dMcGaa/pintacular#readme"
+  "homepage": "https://github.com/dMcGaa/file-metadata-microservice#readme"
 }
